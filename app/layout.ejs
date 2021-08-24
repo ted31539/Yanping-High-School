@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/bootstrap.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <link rel="stylesheet" href="./assets/style/layout/_layout.scss">
+  </head>
+
+  <body>
+    <div class="header bg-primary py-3">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <h1 class="logo text-secondary align-middle me-2"><span class="material-icons-outlined">
+            accessibility</span></h1>
+          <h2 class="text-dark font-size-6">臺北市私立延平高級中學</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner d-flex align-items-center">
+      <div class="container d-flex align-items-center">
+        <div class="banner-text ms-12">
+          <p class="font-size-5 text-white fw-bolder shadow-lg">延平高級中學</p>
+          <h3 class="font-size-8 text-white fw-bolder shadow-lg">2021 社團宣傳影片</h3>
+          <p class="font-size-4 text-white fw-bolder shadow-lg">Enjoy your young life</p>
+          <p class="font-size-4 text-white fw-bolder shadow-lg">找到你所屬</p>
+        </div>
+      </div>      
+    </div>
+
+    <%- contents %>
+
+    <footer class="footer bg-primary py-3">
+      <div class="container d-flex justify-content-end">
+        <p class="text-dark font-size-3">臺北市私立延平高級中學 社團活動組</p>
+      </div>
+      
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>

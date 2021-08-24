@@ -1,0 +1,19 @@
+@for $i from 1 through 25 {
+    .font-size-#{$i} {
+      font-size: ( $i * 0.25rem );
+    }
+  }
+  
+  //font-weight
+  .fw-medium {
+    font-weight: 500;
+  }
+  
+  
+  //width
+  @for $i from 1 through 400 {
+    .width-#{$i} {
+      width: #{$i}px;
+    }
+  }
+  
